@@ -1,0 +1,26 @@
+* {
+    transition: all .5s ease;
+    margin: 0;
+    padding: 0;
+}
+.containter {
+    height: 100vh;
+    background: black;
+    display: grid;
+    gap: 10px;
+    place-content: center;
+}
+.block {
+    height: 180px;
+    background-color: aqua;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid aqua;
+}
+.text_in_area {
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px ;
+    padding: 7px;
+}
